@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
   navItems = [
-    { link: '', name: 'Home' }
+    { link: '', name: 'Home' },
+    { link: 'liste', name: 'Liste' },
+    { link: 'example', name: 'Beispiel' },
   ];
 }
